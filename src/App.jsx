@@ -6,6 +6,7 @@ import samsung from "./image/samsung.png";
 import monday from "./image/a.png";
 import segment from "./image/segment.png"
 import white from "./image/white.png";
+import player from "./image/player.png";
 function App() {
   return (
     <div>
@@ -37,6 +38,9 @@ function App() {
             </p>
             <div className="main-flex">
               <button>Our Process</button>
+              <div className="plyer">
+                <img src={player} alt="" />
+              </div>
               <p>See How It Works</p>
             </div>
           </div>
@@ -98,6 +102,10 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="chek-flex container">
+        <p>Track your crytpo portfolio on the best way possible</p>
+        <button>Check It Out</button>
       </div>
     </div>
   );

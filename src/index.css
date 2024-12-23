@@ -128,7 +128,7 @@ form button {
   letter-spacing: -0.02em;
   color: #3734a9;
   margin-top: 64px;
-  margin-left: 121px;
+  margin-left: 11px;
   cursor: pointer;
 }
 .main-flex button {
@@ -220,7 +220,7 @@ img {
   color: #000;
   gap: 85px;
 }
-.logo-card1{
+.logo-card1 {
   margin-left: 47px;
 }
 .card-p {
@@ -231,4 +231,34 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: -0.02em;
+}
+
+.plyer {
+  margin-top: 47px;
+  margin-left: 50px;
+}
+
+.chek-flex {
+  display: flex;
+  align-items: center;
+  gap: 160px;
+  margin-top: 114px;
+}
+.chek-flex p {
+  margin-left: 117px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  width: 561px;
+  height: 112px;
+}
+.chek-flex button {
+  width: 181px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4f46ba;
 }
